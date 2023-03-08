@@ -4,7 +4,7 @@ const arr = JSON.parse(window.localStorage.getItem('props') || `["hello","world"
 const Join = (props) =>{
   return(
     <div id ="join">
-      {props.words.join(', ')}
+      {props.words.join(',')}
     </div>
   )
 }
